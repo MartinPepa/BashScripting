@@ -3,5 +3,11 @@
 myname="Martín"
 age="30"
 
-echo "Hello, my name is $myname."
+echo "" && echo "Hello, my name is $myname."
 echo "I'm $age years old."
+
+echo "" && echo "The system time and date is:"
+date
+
+echo ""
+echo "Your username is: $USER"
