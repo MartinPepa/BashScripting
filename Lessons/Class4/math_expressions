@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "----------"
+echo "Sum: 89 + 45"
+num1=89
+num2=45
+expr $num1 + $num2
+
+echo "----------"
+echo "Subtraction: 45 - 89"q
+expr $num1 \* $num2
+
+echo "----------"
+echo "Division: 10 / 100"
+num1=10
+num2=100
+echo $(echo "scale=2; $num1 / $num2" | bc)
+
+echo "----------"
